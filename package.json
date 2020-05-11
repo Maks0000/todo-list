@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/Maks0000/todo-list/issues"
   },
-  "homepage": "https://github.com/Maks0000/todo-list#readme"
+  "homepage": "https://github.com/Maks0000/todo-list#readme",
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "koa": "^2.11.0",
+    "koa-static": "^5.0.0"
+  },
+
+  "scripts": {
+    "start": "node server/index.js"
+}
 }
